@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GloboCorp GPT Genie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GloboCorp's GPT Genie</h1>
+    <p>Tell us your wishes and all of your dreams will come true!</p>
+  </header>
+
+  <main>
+    <section id="chat" aria-live="polite" role="log"></section>
+
+    <form id="chat-form">
+      <label for="user-input" class="visually-hidden">Your message</label>
+      <input type="text" id="user-input" name="user-input" required placeholder="Type your message..." />
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <noscript>
+    <p class="no-js-warning">
+      JavaScript is required to use the GPT Genie. Please enable JavaScript in your browser.
+    </p>
+  </noscript>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
